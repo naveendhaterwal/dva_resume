@@ -4,34 +4,34 @@ import { MapPin, Mail, Smartphone, Link as LinkIcon, Book, X } from 'lucide-reac
 const projects = [
   {
     id: 1,
-    title: 'NYC-AirBNB Analyzer',
-    description: 'Help users identify the most suitable Airbnb listings based on pricing, neighborhood, reviews, availability, and stay preferences, enabling better booking decisions.',
-    modalDescription: 'Advanced forecasting tool utilizing complex logic formulas and Power Query for automated cleansing. Reduced monthly financial reporting time by 15 hours.',
-    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
-    repoLink: 'https://github.com/jash1910/SectionA_Group18_AirbnbNYCAnalysis',
-    tags: ['python', 'pandas', 'data-analysis', 'visualization'],
-    language: 'Tableau',
-    langColor: '#f1e05a'
+    title: 'Google Play Store Data Pipeline',
+    description: 'Built a robust data cleaning and transformation pipeline for a 2.3M-row dataset. Automated missing value imputation and type normalization.',
+    modalDescription: 'Orchestrated a complete data quality audit and ELT workflow. Addressed edge cases like zero-ratings and date inconsistencies, laying the foundation for scalable downstream machine learning and BI tasks.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
+    repoLink: 'https://github.com/manjeet090223/Section-A_G-13_Google_Play_Store.git',
+    tags: ['python', 'pandas', 'data-pipeline', 'data-quality'],
+    language: 'Python',
+    langColor: '#3572A5'
   },
   {
     id: 2,
-    title: 'The AI Productivity Paradox',
-    description: 'Analyzed 5,600 employee records to evaluate AI’s impact on productivity and burnout. Identified optimal AI usage (5–12 hrs/week) that maximizes output while minimizing burnout and errors.',
-    modalDescription: 'Analyzed 5,600 employee records to evaluate AI’s impact on productivity and burnout. Identified optimal AI usage (5–12 hrs/week) that maximizes output while minimizing burnout and errors.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
-    repoLink: 'https://github.com/nipun1803/Section-A_DVA_Group-13',
-    tags: ['excel', 'data-analysis'],
-    language: 'Excel',
-    langColor: '#1d6f42'
-  },
-  {
-    id: 3,
     title: 'Housing Market Intelligence Dashboard',
     description: 'Analyzing Property Prices, Market Trends, and Buyer Behavior to Identify Key Investment Insights.',
     modalDescription: 'Interactive dashboard analyzing housing market trends, price drivers, and geographical opportunities. Developed comprehensive executive summaries and actionable investment insights.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
     repoLink: 'https://docs.google.com/spreadsheets/d/1QU5AEmZaSJcBjNW9MoLuTMz_-Acxpx7rbuLUTRQnjZs/edit?gid=1285832976#gid=1285832976',
     tags: ['dashboard', 'data-analysis', 'market-research'],
+    language: 'Excel',
+    langColor: '#1d6f42'
+  },
+  {
+    id: 3,
+    title: 'Enterprise Data Analytics Capstone',
+    description: 'End-to-end data processing workflow from raw ingestion to a final interactive business intelligence dashboard.',
+    modalDescription: 'Implemented a structured data architecture including raw data staging, rigorous data cleaning, transformation logging, and analytical modeling, culminating in a comprehensive BI dashboard.',
+    image: 'https://images.unsplash.com/photo-1543286386-2e659306cd6c',
+    repoLink: '/DVA_Capstone (1).xlsx',
+    tags: ['excel', 'data-visualization', 'analytics'],
     language: 'Excel',
     langColor: '#1d6f42'
   }
