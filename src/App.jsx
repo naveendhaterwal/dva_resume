@@ -23,6 +23,17 @@ const projects = [
     tags: ['excel', 'data-analysis'],
     language: 'Excel',
     langColor: '#1d6f42'
+  },
+  {
+    id: 3,
+    title: 'Housing Market Intelligence Dashboard',
+    description: 'Analyzing Property Prices, Market Trends, and Buyer Behavior to Identify Key Investment Insights.',
+    modalDescription: 'Interactive dashboard analyzing housing market trends, price drivers, and geographical opportunities. Developed comprehensive executive summaries and actionable investment insights.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
+    repoLink: 'https://docs.google.com/spreadsheets/d/1QU5AEmZaSJcBjNW9MoLuTMz_-Acxpx7rbuLUTRQnjZs/edit?gid=1285832976#gid=1285832976',
+    tags: ['dashboard', 'data-analysis', 'market-research'],
+    language: 'Excel',
+    langColor: '#1d6f42'
   }
 ];
 
@@ -116,19 +127,19 @@ export default function App() {
           </div>
 
           <div className="py-1 mb-4">
-            <h1 className="text-2xl font-bold text-[#c9d1d9] leading-tight mb-1">Aditya Raj</h1>
-            <h2 className="text-xl text-[#8b949e] font-light">RajAditya7777</h2>
+            <h1 className="text-2xl font-bold text-[#c9d1d9] leading-tight mb-1">Naveen Kumar</h1>
+            <h2 className="text-xl text-[#8b949e] font-light">NaveenKumar</h2>
           </div>
 
           <div className="mb-4">
             <p className="text-[#c9d1d9] text-[15px] leading-snug">
-              Data Analyst turning complex datasets into clear, actionable insights. I build scalable models and dashboards.
+              Data Science student and aspiring Data Engineer passionate about scalable data architecture, ETL workflows, and analytics infrastructure.
             </p>
           </div>
 
           <div className="mb-6">
             <a 
-              href="https://github.com/RajAditya7777"
+              href="https://github.com/NaveenKumar"
               target="_blank"
               rel="noreferrer"
               className="block text-center w-full py-[5px] rounded-md bg-[#21262d] border border-[#30363d] hover:bg-[#30363d] hover:border-[#8b949e] text-sm font-medium transition-colors text-[#c9d1d9]"
@@ -144,22 +155,22 @@ export default function App() {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-[#8b949e]" />
-              <a href="mailto:your.email@gmail.com" className="hover:text-blue-400 hover:underline">aditya.raj88005@gmail.com</a>
+              <a href="mailto:naveen.kumar2024@nst.rishihood.edu.in" className="hover:text-blue-400 hover:underline">naveen.kumar2024@nst.rishihood.edu.in</a>
             </div>
             <div className="flex items-center gap-2">
               <Smartphone className="w-4 h-4 text-[#8b949e]" />
-              <span>+91 7004974402</span>
+              <span>+91 8302906048</span>
             </div>
             <div className="flex items-center gap-2">
               <LinkIcon className="w-4 h-4 text-[#8b949e]" />
-              <a href="https://www.linkedin.com/in/aditya-raj-2630b6323/" className="hover:text-[#58a6ff] hover:underline">linkedin.com/in/aditya-raj</a>
+              <a href="#" className="hover:text-[#58a6ff] hover:underline">linkedin.com/in/naveen-kumar</a>
             </div>
           </div>
 
           <div className="pt-6 border-t border-[#30363d]">
             <h3 className="font-semibold text-sm mb-3 text-[#c9d1d9]">Organizations</h3>
             <div className="flex flex-wrap gap-2">
-              {["Excel", "Looker Studio", "Tableau", "Python", "SQL", "Pandas"].map((org) => (
+              {["Python", "SQL", "Jupyter", "Excel", "Tableau", "Scikit-learn"].map((org) => (
                 <span
                   key={org}
                   className="px-3 py-1 bg-transparent border border-[#30363d] rounded-full text-xs font-medium text-[#c9d1d9] hover:bg-[#21262d] cursor-pointer"
@@ -193,7 +204,7 @@ export default function App() {
               className="flex-1 w-full lg:max-w-xs bg-[#0d1117] border border-[#30363d] rounded-md px-3 py-[5px] text-sm focus:outline-none focus:border-[#58a6ff] focus:ring-1 focus:ring-[#58a6ff] placeholder-[#8b949e]"
             />
             <div className="flex flex-wrap gap-2">
-              {["All", "Excel", "Looker Studio", "Python", "Tableau"].map((filter) => (
+              {["All", "Python", "SQL", "Excel", "Tableau"].map((filter) => (
                 <button
                   key={filter}
                   onClick={() => setActiveFilter(filter)}
