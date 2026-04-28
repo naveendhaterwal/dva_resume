@@ -34,6 +34,17 @@ const projects = [
     tags: ['excel', 'data-visualization', 'analytics'],
     language: 'Excel',
     langColor: '#1d6f42'
+  },
+  {
+    id: 4,
+    title: 'Loan Analysis & Risk Dashboard',
+    description: 'Analyzing borrower risk profiles and loan characteristics to identify key default drivers and regional lending trends.',
+    modalDescription: 'Comprehensive risk analysis dashboard that evaluates default rates across Debt-to-Income (DTI) ratios, Credit Scores, and Loan-to-Value (LTV) bands. Provided actionable insights for credit risk assessment and regional lending strategies.',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f',
+    repoLink: 'https://docs.google.com/spreadsheets/d/10VAas0NO_DYNAqTqYEzLkhtKDtzOlmknq3i-KbzAJVk/edit?gid=1351790935#gid=1351790935',
+    tags: ['risk-analysis', 'finance', 'dashboard', 'excel'],
+    language: 'Excel',
+    langColor: '#1d6f42'
   }
 ];
 
