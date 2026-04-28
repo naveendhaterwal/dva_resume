@@ -139,7 +139,7 @@ export default function App() {
 
           <div className="mb-6">
             <a 
-              href="https://github.com/NaveenKumar"
+              href="https://github.com/naveendhaterwal"
               target="_blank"
               rel="noreferrer"
               className="block text-center w-full py-[5px] rounded-md bg-[#21262d] border border-[#30363d] hover:bg-[#30363d] hover:border-[#8b949e] text-sm font-medium transition-colors text-[#c9d1d9]"
