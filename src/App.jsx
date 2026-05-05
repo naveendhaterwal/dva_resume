@@ -26,11 +26,11 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Enterprise Data Analytics Capstone',
-    description: 'End-to-end data processing workflow from raw ingestion to a final interactive business intelligence dashboard.',
-    modalDescription: 'Implemented a structured data architecture including raw data staging, rigorous data cleaning, transformation logging, and analytical modeling, culminating in a comprehensive BI dashboard.',
+    title: 'COVID-19 Case Analysis Dashboard (India - 2020)',
+    description: 'End-to-end Excel analytics project analyzing 14,993 COVID-19 cases across India, tracking hospitalization, recovery, and fatality trends through an interactive BI dashboard.',
+    modalDescription: 'Built a structured multi-sheet Excel workbook covering raw data staging, data cleaning, transformation logs, and analytical modeling. The Final Dashboard presents key KPIs — 14,993 Total Cases, 8,978 Hospitalized, 5,387 Recovered, 627 Deceased, and a 35.93% Recovery Rate — alongside status distribution charts for actionable public health insights.',
     image: 'https://images.unsplash.com/photo-1543286386-2e659306cd6c',
-    repoLink: '/DVA_Capstone (1).xlsx',
+    repoLink: 'https://docs.google.com/spreadsheets/d/1wmYF5tjDbBI-zDAFJ0xrPMHZGImhJaGJfJEORmNXuoo/edit?usp=sharing',
     tags: ['excel', 'data-visualization', 'analytics'],
     language: 'Excel',
     langColor: '#1d6f42'
